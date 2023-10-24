@@ -11880,4 +11880,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.tecnologias {
+  background-image: url(../img/tecnologias.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /*# sourceMappingURL=app.css.map */
