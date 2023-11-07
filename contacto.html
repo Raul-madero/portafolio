@@ -32,9 +32,6 @@
                             <a href="sobreMi.html" class="nav-link text-primary">Acerca de mi</a>
                         </li>
                         <li class="nav-item">
-                            <a href="servicios.html" class="nav-link text-primary">Servicios</a>
-                        </li>
-                        <li class="nav-item">
                             <a href="proyectos.html" class="nav-link text-primary">Proyectos</a>
                         </li>
                         <li class="nav-item">
@@ -46,26 +43,29 @@
         </nav>
     </header>
     <main class="container-xl">
-        <h1 class="text-center my-4">Ingresa tus datos y nos pondremos en contacto contigo</h1>
-        <form action="" class="container-fluid my-4">
+        <div class="d-flex align-items-center justify-content-center">
+            <h1 class="text-center w-75 my-4">Ingresa tus datos y nos pondremos en contacto contigo</h1>
+        </div>
+        <form action="" class="container-fluid my-5 formulario">
             <fieldset>
-                <legend>Datos personales</legend>
-                <div class="mb-2 mx-auto">
+                <legend class="text-center">Datos personales</legend>
+                <div class="mb-2">
                     <label for="name" class="form-label">Ingresa tu nombre:</label>
-                    <input type="text" class="form-control w-50 bg-dark" placeholder="Tu nombre">
+                    <input type="text" class="form-control bg-dark text-light" placeholder="Tu nombre">
                 </div>
                 <div class="mb-2">
                     <label for="email" class="form-label">Ingresa tu correo:</label>
-                    <input type="email" class="form-control w-50 bg-dark" placeholder="Tu email">
+                    <input type="email" class="form-control bg-dark" placeholder="Tu email">
                 </div>
                 <div class="mb-2">
                     <label for="telefono" class="form-label">Ingresa tu telefono:</label>
-                    <input type="tel" class="form-control w-50 bg-dark" placeholder="Tu telefono">
+                    <input type="tel" class="form-control bg-dark" placeholder="Tu telefono">
                 </div>
                 <div class="mb-2">
                     <label for="mensaje" class="form-label">Ingresa tu telefono:</label>
-                    <textarea name="mensaje" id="mensaje" class="form-control bg-dark w-50" cols="30" rows="10"></textarea>
+                    <textarea name="mensaje" id="mensaje" class="form-control bg-dark" cols="30" rows="10"></textarea>
                 </div>
+                <button type="submit" class="btn btn-outline-info btn-lg" data-bs-toggle="button">Enviar</button>
             </fieldset>
         </form>
     </main>
