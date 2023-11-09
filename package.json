@@ -29,5 +29,8 @@
     "postcss": "^8.4.28",
     "sass": "^1.66.0",
     "terser": "^5.19.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
   }
 }
