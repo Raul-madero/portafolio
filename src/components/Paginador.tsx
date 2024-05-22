@@ -1,10 +1,10 @@
-import { Pagination } from "@/interfaces/Pagination"
+import { Paginator } from "@/interfaces/Paginator"
 
 interface Props {
-    pagination: Pagination
+    pagination: Paginator
 }
 
-const Pagination = ({pagination}: Props) => {
+const Paginador = ({pagination}: Props) => {
     const { page, pageSize, pageCount, total } = pagination
     if (pageCount <= 1) {
         return null
@@ -28,4 +28,4 @@ const Pagination = ({pagination}: Props) => {
     )
 }
 
-export default Pagination
+export default Paginador

@@ -1,4 +1,4 @@
-import Pagination from "@/components/Pagination"
+import Pagination from "@/components/Paginador"
 import ProyectoCard from "@/components/ProyectoCard"
 import Title from "@/components/Title"
 import { getStrapiURL } from "@/helpers/api-helpers"
@@ -12,7 +12,7 @@ const getData = async (page = 1, pageSize = 6) => {
     const urlParamsObject = {
         populate: '*',
         sort: {
-            id: 'ASC'
+            id: 'DESC'
         },
         pagination: {
             page,
