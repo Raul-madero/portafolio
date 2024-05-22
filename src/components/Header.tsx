@@ -45,11 +45,11 @@ const Header = () => {
                         <li>
                             <Link href="/about" className="block py-2 px-3 text-orange-600 rounded md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Acerca de mi</Link>
                         </li>
-                        {/* <li>
-                            <Link href="#" className="block py-2 px-3 text-gray-900 rounded md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</Link>
-                        </li> */}
                         <li>
                             <Link href="/proyectos" className="block py-2 px-3 text-orange-600 rounded md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Proyectos</Link>
+                        </li>
+                        <li>
+                            <Link href="/contacto" className="block py-2 px-3 text-gray-900 rounded md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contacto</Link>
                         </li>
                     </ul>
                 </div>

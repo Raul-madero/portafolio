@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@types/qs": "^6.9.15",
+    "flowbite": "^2.3.0",
+    "flowbite-react": "^0.9.0",
     "next": "14.3.0-canary.9",
     "qs": "^6.12.1",
     "react": "^18",

@@ -9,7 +9,7 @@ interface Props {
 }
 
 const Title = ({text}: Props) => {
-    return <h1 className= {`${lato.className} text-5xl font-bold text-center text-cyan-500 md:text-6xl md:text-cyan-500`}  >{text}</h1>
+    return <h1 className= {`${lato.className} text-5xl font-bold text-center text-cyan-500 md:text-6xl md:text-cyan-500 dark:text-gray-400`}  >{text}</h1>
 }
 
 export default Title
