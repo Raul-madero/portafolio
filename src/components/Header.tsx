@@ -1,4 +1,6 @@
 'use client'
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -52,6 +54,14 @@ const Header = () => {
                             <Link href="/contacto" className="block py-2 px-3 text-gray-900 rounded md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contacto</Link>
                         </li>
                     </ul>
+                </div>
+                <div className="flex gap-10 items-center justify-center">
+                    <Link href="https://github.com/Raul-madero" >
+                        <FontAwesomeIcon icon={faGithub} className="text-emerald-400 dark:text-slate-300 w-6 h-6" />
+                    </Link>
+                    <Link href="https://www.linkedin.com/in/raulmadero/" >
+                        <FontAwesomeIcon icon={faLinkedin} className="text-emerald-400 dark:text-slate-300 w-6 h-6" />
+                    </Link>
                 </div>
             </div>
         </nav>

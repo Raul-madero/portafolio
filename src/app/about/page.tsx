@@ -1,5 +1,9 @@
 import CarruselAbout from "@/components/CarruselAbout"
 import Title from "@/components/Title"
+import { faBootstrap, faCss3, faGitAlt, faJs, faLinux, faNode, faPhp, faPython, faReact, faSass } from "@fortawesome/free-brands-svg-icons"
+import { faHtml5 } from "@fortawesome/free-brands-svg-icons/faHtml5"
+import { faDatabase } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const About = () => {
     return (
@@ -10,25 +14,45 @@ const About = () => {
                 <p className="block w-3/4 mx-auto text-emerald-400 dark:text-slate-300">Desarrollador de Software altamente motivado con habilidades para resolver problemas y pensamiento crítico. Competente en Python, JavaScript y React, con una pasión por construir soluciones de software fáciles de usar y eficientes. Dispuesto a aprovechar las habilidades transferibles de una carrera de enfermería de 15 años, incluida la excelente comunicación y la toma de decisiones bajo presión, para prosperar en un entorno de desarrollo de ritmo rápido.
                     <br />
                     Siguiendo mi pasión por el desarrollo de software, realicé un bootcamp donde aprendí y adquirí experiencia en importantes tecnologías tales como:
-                    <br />
-                    JavaScript
-                    <br />
-                    SQL
-                    <br />
-                    React
-                    <br />
-                    Python
-                    <br />
-                    Flask
-                    <br />
-                    HTML
-                    <br />
-                    CSS
-                    <br />
-                    API
-                    <br />
-                    Entre otros.
                     </p>
+                    <div className="grid grid-rows-3 grid-flow-col gap-4 mt-10 w-full justify-center">
+                        <div className="border-2 border-orange-400 rounded-lg p-10 dark:border-slate-300 w-1/2 flex flex-col items-center justify-center">
+                            <FontAwesomeIcon icon={faHtml5} className="text-emerald-400 dark:text-slate-300 w-10 h-10" />
+                        </div>
+                        <div className="border-2 border-orange-400 rounded-lg p-10 dark:border-slate-300 w-1/2 flex flex-col items-center justify-center">
+                            <FontAwesomeIcon icon={faCss3} className="text-emerald-400 dark:text-slate-300 w-10 h-10" />
+                        </div>
+                        <div className="border-2 border-orange-400 rounded-lg p-10 dark:border-slate-300 w-1/2 flex flex-col items-center justify-center">
+                            <FontAwesomeIcon icon={faReact} className="text-emerald-400 dark:text-slate-300 w-10 h-10" />
+                        </div>
+                        <div className="border-2 border-orange-400 rounded-lg p-10 dark:border-slate-300 w-1/2 flex flex-col items-center justify-center">
+                            <FontAwesomeIcon icon={faGitAlt} className="text-emerald-400 dark:text-slate-300 w-10 h-10" />
+                        </div>
+                        <div className="border-2 border-orange-400 rounded-lg p-10 dark:border-slate-300 w-1/2 flex flex-col items-center justify-center">
+                            <FontAwesomeIcon icon={faJs} className="text-emerald-400 dark:text-slate-300 w-10 h-10" />
+                        </div>
+                        <div className="border-2 border-orange-400 rounded-lg p-10 dark:border-slate-300 w-1/2 flex flex-col items-center justify-center">
+                            <FontAwesomeIcon icon={faPython} className="text-emerald-400 dark:text-slate-300 w-10 h-10" />
+                        </div>
+                        <div className="border-2 border-orange-400 rounded-lg p-10 dark:border-slate-300 w-1/2 flex flex-col items-center justify-center">
+                            <FontAwesomeIcon icon={faDatabase} className="text-emerald-400 dark:text-slate-300 w-10 h-10" />
+                        </div>
+                        <div className="border-2 border-orange-400 rounded-lg p-10 dark:border-slate-300 w-1/2 flex flex-col items-center justify-center">
+                            <FontAwesomeIcon icon={faPhp} className="text-emerald-400 dark:text-slate-300 w-10 h-10" />
+                        </div>
+                        <div className="border-2 border-orange-400 rounded-lg p-10 dark:border-slate-300 w-1/2 flex flex-col items-center justify-center">
+                            <FontAwesomeIcon icon={faSass} className="text-emerald-400 dark:text-slate-300 w-10 h-10" />
+                        </div>
+                        <div className="border-2 border-orange-400 rounded-lg p-10 dark:border-slate-300 w-1/2 flex flex-col items-center justify-center">
+                            <FontAwesomeIcon icon={faBootstrap} className="text-emerald-400 dark:text-slate-300 w-10 h-10" />
+                        </div>
+                        <div className="border-2 border-orange-400 rounded-lg p-10 dark:border-slate-300 w-1/2 flex flex-col items-center justify-center">
+                            <FontAwesomeIcon icon={faLinux} className="text-emerald-400 dark:text-slate-300 w-10 h-10" />
+                        </div>
+                        <div className="border-2 border-orange-400 rounded-lg p-10 dark:border-slate-300 w-1/2 flex flex-col items-center justify-center">
+                            <FontAwesomeIcon icon={faNode} className="text-emerald-400 dark:text-slate-300 w-10 h-10" />
+                        </div>
+                    </div>
             </div>
         </div>
     )
