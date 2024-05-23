@@ -27,7 +27,7 @@ const Header = () => {
     }
     return (
         <nav className="bg-emerald-300 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 drop-shadow-lg">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <div className="max-w-screen-xl flex flex-nowrap gap-10 items-center justify-between mx-auto p-4">
                 <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <Image width={300} height={200} src= { imagen} className="h-8" alt="Raul Madero Logo" />
                 </Link>
@@ -45,13 +45,13 @@ const Header = () => {
                 <div className={`items-center bg-emerald-300 dark:bg-gray-900 justify-between w-full md:flex md:w-auto md:order-1 ${openMenu ? 'block' : 'hidden'}`} id="navbar-sticky">
                     <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-emerald-300 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                         <li>
-                            <Link href="/about" className="block py-2 px-3 text-orange-600 rounded md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Acerca de mi</Link>
+                            <Link onClick={ handleClick} href="/about" className="block py-2 px-3 text-orange-600 rounded md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Acerca de mi</Link>
                         </li>
                         <li>
-                            <Link href="/proyectos" className="block py-2 px-3 text-orange-600 rounded md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Proyectos</Link>
+                            <Link onClick={handleClick} href="/proyectos" className="block py-2 px-3 text-orange-600 rounded md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Proyectos</Link>
                         </li>
                         <li>
-                            <Link href="/contacto" className="block py-2 px-3 text-gray-900 rounded md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contacto</Link>
+                            <Link onClick={handleClick} href="/contacto" className="block py-2 px-3 text-gray-900 rounded md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contacto</Link>
                         </li>
                     </ul>
                 </div>

@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const CarruselAbout = () => {
     return (
-        <div className="flex w-full mx-auto justify-center items-center my-10">
+        <div className="flex flex-wrap w-full mx-auto justify-center items-center my-10">
             <Image width={200} height={300} src="https://i.ibb.co/JRhXC8x/IMG-3414.jpg" alt="Imagen personal" />
             <Image width={200} height={300} src="https://i.ibb.co/QnhWx66/IMG-3395.jpg" alt="Imagen personal" />
             <Image width={200} height={300} src="https://i.ibb.co/rdrpJj1/IMG-3446.jpg" alt="Imagen personal" />
